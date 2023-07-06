@@ -1,0 +1,5 @@
+const list=require("./users")
+const findeUser=require("./local")
+const {AgeMoy}=require("./local")
+// console.log(findeUser(list,"Mohaihomii_hmed"))
+console.log(AgeMoy(list))
